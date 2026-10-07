@@ -13,6 +13,12 @@
 
 function es14(anno) {
   // TODO: scrivi qui la tua soluzione
+  if (anno%400 == 0 || anno%4 == 0 && anno%100 != 0) {
+    return true
+  }
+  else{
+    return false        
+  }
 }
 
 // --- NON MODIFICARE SOTTO ---
