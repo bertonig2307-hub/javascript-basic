@@ -11,16 +11,34 @@
 function es4_1() {
   // 1. Restituisci true se "JavaScript" inizia con "Java"
   // TODO: scrivi qui la tua soluzione
+  if ("JavaScript".startsWith("Java")) {
+    return true
+  }
+  else {
+    return false
+  }
 }
 
 function es4_2(url) {
   // 2. Verifica se la URL ricevuta inizia con "https"
   // TODO: scrivi qui la tua soluzione
+  if (url.startsWith("https")) {
+    return true
+  }
+  else {
+    return false
+  }
 }
 
 function es4_3() {
   // 3. Restituisci true se "Milano" inizia con "Roma"
   // TODO: scrivi qui la tua soluzione
+  if ("Milano".startsWith("Roma")) {
+    return true
+  }
+  else {
+    return false
+  }
 }
 
 // --- NON MODIFICARE SOTTO ---

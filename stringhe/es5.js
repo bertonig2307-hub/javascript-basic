@@ -11,16 +11,34 @@
 function es5_1() {
   // 1. Restituisci true se "documento.pdf" termina con ".pdf"
   // TODO: scrivi qui la tua soluzione
+  if ("documento.pdf".endsWith(".pdf")) {
+    return true
+  }
+  else {
+    return false
+  }
 }
 
 function es5_2() {
   // 2. Restituisci true se "ciao" termina con "o"
   // TODO: scrivi qui la tua soluzione
+  if ("ciao".endsWith("o")) {
+    return true
+  }
+  else {
+    return false
+  }
 }
 
 function es5_3() {
   // 3. Restituisci true se "musica.mp3" termina con ".wav"
   // TODO: scrivi qui la tua soluzione
+  if ("musica.mp3".endsWith(".wav")) {
+    return true
+  }
+  else {
+    return false
+  }
 }
 
 // --- NON MODIFICARE SOTTO ---
