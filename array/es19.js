@@ -13,6 +13,9 @@
 
 function es19(voti) {
   // TODO: scrivi qui la tua soluzione
+  var somma = voti.reduce((acc, curval) => acc+curval)
+
+  return {somma: somma, media: somma / voti.length}
 }
 
 // --- NON MODIFICARE SOTTO ---
